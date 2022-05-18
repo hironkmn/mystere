@@ -17,7 +17,7 @@ function say(text, pitch = 1, rate = 1) {
 	speech.pitch = pitch;
 	speech.rate = rate;
 	speech.volume = volume;
-	speech.lang = "en-US";
+	speech.lang = "fr";
 	synth.speak(speech);
 }
 
