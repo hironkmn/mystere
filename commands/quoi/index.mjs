@@ -249,7 +249,7 @@ async function cowSay(
 	return;
 }
 
-function command(args = "https://www.youtube.com/watch?v=MP2jPjy8WvQ") {
+function command(args = "Feur") {
 	cowSay({ text: args });
 }
 
